@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ナブカツ用のウェブサイトです。基本的なウェブのフロントエンドの書き方、JavaScriptの書き方を学びます。">
+    <meta name="keywords" content="ナブカツ,横須賀,ポートフォリオ,ウェブサイト,プログラミング,フロントエンド,学習,イトナブ">
+
+    <title>ナブカツLab</title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="site-header">
+        <h1 id="site-logo"><a href="">LOGO</a></h1>
+        <nav>
+            <ul id="nav-menu">
+                <li class="nav-menu-items"><a href="#profile">Profile</a></li>
+                <li class="nav-menu-items"><a href="#works">Works</a></li>
+                <li class="nav-menu-items"><a href="#access">Access</a></li>
+                <li class="nav-menu-items"><a href="#promotion">Promotion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/photo1.jpg"></div>
+            <div class="swiper-slide"><img src="img/photo2.jpg"></div>
+            <div class="swiper-slide"><img src="img/photo3.jpg"></div>
+            <div class="swiper-slide"><img src="img/photo4.jpg"></div>
+        </div>
+        <div class="top-title">Let's enjoy Yokosuka!</div>
+    </div>
+
+    <!-- Description -->
+    <div class="description-text">
+        <p>ナブカツ用のポートフォリオサイトです。</p>
+        <p>基本的なウェブフロントエンドの学習をします。</p>
+    </div>
+
+    <!-- Profile -->
+    <hr class="rule" id="profile">
+    <h2 class="sub-title">〜 Profile 〜</h2>
+    <div class="profile">
+        <div id="profile-img">
+            <img src="img/profile.jpg" alt="profile-photo">
+        </div>
+        <div id="profile-text">
+            <p>日の出（本名：武山 将己）/ 1986年生まれ / 水瓶座 / O型</p>
+            <p>石巻出身 / 高校を卒業後、東京都立短期大学（現 首都大学東京）に入学。</p>
+            <p>高校生の時から漫画家志望で、大学時代は集英社に漫画を持ち込んではボツを食らう毎日を送る。</p>
+            <p>大学卒業後はそのまま東京で仕事をしながら漫画を描いていた。</p>
+            <p>震災をきっかけに2014年に地元石巻に戻り、IT企業に入社。</p>
+            <p>主に学生たちにプログラミングを教えたり、イラスト制作の仕事を行う。</p>
+            <p>好きなもの：ロードバイク / スノーボード / IT / 落書き / マンガ / アニメ / 激辛な食べ物 / スイーツ</p>
+            <p>苦手なもの：茄子</p>
+        </div>
+    </div>
+
+    <!-- Works -->
+    <hr class="rule" id="works">
+    <h2 class="sub-title">〜 Works 〜</h2>
+    <div class=works>
+        <div class="work">
+            <h3 class="work-title">Photo montage</h3>
+            <img class="work-img" src="img/image1.jpg">
+            <p>
+                モバイルゲームアプリなどの背景（建物）やクライアントサイトの挿絵などの制作を行なっています。<br>また、キャラクターデザインやイベントのフライヤー制作なども行いました。
+            </p>
+        </div>
+        <div class="work">
+            <h3 class="work-title">Programming</h3>
+            <img class="work-img" src="img/image2.jpg">
+            <p>
+                CoronaSDKを使って2D系のゲームの制作、Unityを使って3D系のゲームの制作を行なっています。<br>また、CSSフレームワークを使用してのWebフロントエンド開発も行なっています。
+            </p>
+        </div>
+        <div class="work">
+            <h3 class="work-title">Cuisine</h3>
+            <img class="work-img" src="img/image3.jpg">
+            <p>
+                主に中学生から大学生を中心にプログラミングの出張授業などを行なっています。<br>教える内容は、CoronaSDKやWebフロントエンド開発がメインです。
+            </p>
+        </div>
+    </div>
+
+    <div id="book-img"><img src="img/book.jpg"></div>
+
+    <!-- Access -->
+    <hr class="rule" id="access">
+    <h2 class="sub-title">〜 Access 〜</h2>
+    <div class="access">
+        <div id="access-text">
+            <p id="place-name">横須賀市</p>
+            <p>〒000-1111</p>
+            <p>神奈川県横須賀市 0-0</p>
+            <br>
+            <p>Tel：<a href="tel:000-1234-5678">000-1234-5678</a></p>
+            <p>Mail：<a href="mail:info@yokosuka.jp">info@yokosuka.jp</a></p>
+            <p>Web：<a href="https://www.city.yokosuka.kanagawa.jp/index.html">www.city.yokosuka.kanagawa.jp</a></p>
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104250.47119961487!2d139.59072814737814!3d35.26055387055114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60183f970a869e57%3A0x5220e231a4d9673f!2z56We5aWI5bed55yM5qiq6aCI6LOA5biC!5e0!3m2!1sja!2sjp!4v1561374385387!5m2!1sja!2sjp"
+            width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+        </iframe>
+    </div>
+
+    <!-- Promotion -->
+    <hr class="rule" id="promotion">
+    <h2 class="sub-title">〜 Promotion 〜</h2>
+    <div class="promotion">
+        <iframe id="pr-youtube" src="https://www.youtube.com/embed/ruo7qlHLTok" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer id="site-footer">
+        <p id="copyright"><small>&copy; 2019 Itnav</small></p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
